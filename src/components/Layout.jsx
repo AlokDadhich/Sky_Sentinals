@@ -14,10 +14,12 @@ export default function Layout() {
   return (
     <div className="min-h-screen bg-[#0a0e17]">
       <header className="h-14 border-b border-slate-800/50 flex items-center justify-between px-6 bg-[#0a0e17]/95 backdrop-blur-sm sticky top-0 z-50">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-emerald-600 flex items-center justify-center">
-            <Map className="w-4 h-4 text-white" />
-          </div>
+        <div className="flex items-center gap-3">
+          <img
+            src="/logo.png"
+            alt="SkySentinels"
+            className="h-9 w-auto object-contain"
+          />
           <span className="font-display font-semibold text-lg text-white">
             SkySentinels
           </span>
